@@ -1,0 +1,499 @@
+/*
+Design by Metamorphosis Design
+http://www.metamorphozis.com
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0px 0;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #666666;
+}
+
+/* Used for Status Bar*/
+h1 {
+	font:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	text-decoration: none;
+	padding-top: 10px;
+	color: #333;
+}
+
+/* Used for Widget Titles*/
+h2 {
+	font:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	text-decoration: none;
+	text-align: center;
+	padding-top: 2px;
+	color: #333;
+}
+
+/* Used for Header*/
+h3 {
+	text-align: right;
+	font:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	text-decoration: none;
+	color: #000000;
+	padding-top: 8px;
+}
+
+
+#all {
+	height: auto;
+	overflow: hidden;
+}
+
+#all #header1 {
+	height: 75px; 
+	width: auto;
+	background-image:url(../images/navgradient.jpg);
+}
+
+#header1 .header1mid{
+	height: 75px; 
+	width: 915px;
+	position: relative;
+	margin: 0 auto;
+}
+
+
+#header1 .header1mid .logo {
+	height: 75px;
+	width: 201px;
+	background-image: url(../images/hbilogo.png);
+	background-repeat:no-repeat;
+	position: relative;
+	float: left;
+	left:auto;
+	top: auto;
+}
+
+#header1 .header1mid .search {
+	height: 35px;
+	width: 236px;
+	margin-top: 5px;
+	float: left;
+	top: auto;
+	left: 134px;
+	position: relative;
+	background-image: url(../images/BlueSearchForm.png);
+	background-repeat: no-repeat;
+}
+
+
+#all #navibar {
+	height: 30px; 
+	width: auto;
+	background-color: #0196D8;
+}
+
+#navibar .navibarmid{
+	height: 30px; 
+	width: 915px;
+	position: relative;
+	margin: 0 auto;
+}
+
+
+/* Menu info*/
+
+
+#navibar .navibarmid .menu {
+
+	float: left;
+	
+	height: 30px;
+
+}
+
+#navibar .navibarmid .menu ul {
+
+	margin: 0px;
+
+	padding: 0px;
+
+	list-style-image: none;
+
+	list-style-type: none;
+
+}
+
+#navibar .navibarmid .menu li {
+	display: inline;
+}
+
+#navibar .navibarmid .menu li a {
+	font-family: Helvetica,arial,sans-serif;
+	font-size: 12px;
+	text-transform: uppercase;
+	text-decoration: none;
+	float: left;
+	padding-right: 15px;
+	margin-right:0px;
+	padding-left: 15px;
+	color: #FFFFFF;
+	display: block;
+	font-weight: bold;
+	padding-top: 9px;
+	padding-bottom: 6px;
+}
+
+#navibar .navibarmid .menu li a:hover {
+	color: #3A3A3A;
+}
+
+
+#navibar .navibarmid .menu li a.borders {
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #3A3A3A;
+}
+
+
+/*End Menu*/
+
+#statusbar {
+	height: 30px;
+	width: 915px;
+	position: relative;
+	margin: 0 auto;
+}
+
+#statusbar .webstatus {
+	height: 30px;
+	width: 150px;
+	position: relative;
+	float: left;
+	left: auto;
+	top: auto;
+}
+
+#statusbar .date{
+	height: 30px;
+	width: auto;
+	position: relative;
+	float: left;
+	left: 395px;
+	top: auto;
+}
+
+
+
+
+#main {
+	height: auto;
+	padding-top: 5px;
+	padding-bottom: 25px;
+	width: 925px;
+	position: relative;
+	margin: 0 auto;
+}
+
+/* Main Left Column Content*/
+
+#main-left {
+	width: 540px;
+	position: relative;
+	left: 5px;
+	top: auto;
+	height:auto;
+	float: left;
+}
+
+#main-left .imagebox {
+	height: 300px;
+	width: 540px;
+	background-color:#3A3A3A;
+	position: relative;
+	top: auto;
+	float: left;
+}
+
+#main-left .rssfeed {
+	height: 160px;
+	width: 540px;
+	background-color:#CCC;
+	position: relative;
+	top: 10px;
+	float: left;
+	margin-top: 5px; 
+}
+
+/* Main Right Column Content*/
+
+#main-right {
+	width: 370px;
+	position: relative;
+	left: 10px;
+	top: auto;
+	height:auto;
+	float: left;
+}
+
+/* 3 Right Column Icons*/
+
+#main-right .iconbox {
+	height: 120px;
+	width: 370px;
+	position: relative;
+	top: auto;
+	float: left;
+}
+
+#main-right .iconbox .icon1 {
+	height: 120px;
+	width: 120px;
+	background-image:url(../images/directoryicon.jpg);
+	float: left;
+}
+
+#main-right .iconbox .icon2 {
+	height: 120px;
+	width: 120px;
+	background-image:url(../images/formsicon.jpg);
+	float: left;
+	margin-left: 5px;
+}
+
+#main-right .iconbox .icon3 {
+	height: 120px;
+	width: 120px;
+	background-image:url(../images/itsupporticon.jpg);
+	float: left;
+	margin-left: 5px;
+}
+
+/* Row 1 of Right Pane */
+
+
+#main-right .widgetrow1 {
+	height: 182px;
+	width: 370px;
+	position: relative;
+	top: 10px;
+	float: left;
+}
+
+#main-right .widgetrow1 .weather {
+	height: 182px;
+	width: 182px;
+	float: left;
+}
+
+#main-right .widgetrow1 .weather .weatherbar {
+	height: 18px;
+	width: 180px;
+	background-image: url(../images/widgetgradient.jpg);
+	border: 1px solid #333;
+}
+
+#main-right .widgetrow1 .weather .weatherwidget {
+	height: 161px;
+	width: 180px;
+	float: left;
+	border-bottom: 1px solid #666;
+	border-left: 1px solid #666;
+	border-right: 1px solid #666;
+}
+
+#main-right .widgetrow1 .minicalendar {
+	height: 182px;
+	width: 182px;
+	float: left;
+	margin-left: 6px;
+}
+
+#main-right .widgetrow1 .minicalendar .minicalendarbar {
+	height: 18px;
+	width: 180px;
+	background-image: url(../images/widgetgradient.jpg);
+	border: 1px solid #333;
+}
+
+#main-right .widgetrow1 .minicalendar .minicalendarwidget {
+	height: 161px;
+	width: 180px;
+	float: left;
+	border-bottom: 1px solid #666;
+	border-left: 1px solid #666;
+	border-right: 1px solid #666;
+}
+
+/* Row 2 of Right Pane */
+
+#main-right .widgetrow2 {
+	height: 182px;
+	width: 370px;
+	position: relative;
+	top: 20px;
+	float: left;
+}
+
+#main-right .widgetrow2 .personallinks {
+	height: 182px;
+	width: 182px;
+	float: left;
+}
+
+#main-right .widgetrow2 .personallinks .personallinksbar {
+	height: 18px;
+	width: 180px;
+	background-image: url(../images/widgetgradient.jpg);
+	border: 1px solid #333;
+}
+
+#main-right .widgetrow2 .personallinks .personallinkswidget {
+	height: 161px;
+	width: 180px;
+	float: left;
+	border-bottom: 1px solid #666;
+	border-left: 1px solid #666;
+	border-right: 1px solid #666;
+}
+
+#main-right .widgetrow2 .quicklink {
+	height: 182px;
+	width: 182px;
+	float: left;
+	margin-left: 6px;
+}
+
+#main-right .widgetrow2 .quicklink .quicklinkbar {
+	height: 18px;
+	width: 180px;
+	background-image: url(../images/widgetgradient.jpg);
+	border: 1px solid #333;
+}
+
+#main-right .widgetrow2 .quicklink .quicklinkwidget {
+	height: 161px;
+	width: 180px;
+	float: left;
+	border-bottom: 1px solid #666;
+	border-left: 1px solid #666;
+	border-right: 1px solid #666;
+}
+
+/* Row 3 of Right Pane */
+
+#main-right .widgetrow3 {
+	height: 182px;
+	width: 370px;
+	
+	position: relative;
+	top: 30px;
+	float: left;
+}
+
+#main-right .widgetrow3 .birthdays {
+	height: 182px;
+	width: 182px;
+	float: left;
+	}
+
+#main-right .widgetrow3 .birthdays .birthdaysbar {
+	height: 18px;
+	width: 180px;
+	background-image: url(../images/widgetgradient.jpg);
+	border: 1px solid #333;
+}
+
+#main-right .widgetrow3 .birthdays .birthdayswidget {
+	height: 161px;
+	width: 180px;
+	float: left;
+	border-bottom: 1px solid #666;
+	border-left: 1px solid #666;
+	border-right: 1px solid #666;
+}
+
+
+#main-right .widgetrow3 .eventss {
+	height: 182px;
+	width: 182px;
+	float: left;
+	margin-left: 6px;
+}
+
+#main-right .widgetrow3 .eventss .eventssbar {
+	height: 18px;
+	width: 180px;
+	background-image: url(../images/widgetgradient.jpg);
+	border: 1px solid #333;
+}
+
+#main-right .widgetrow3 .eventss .eventsswidget {
+	height: 161px;
+	width: 180px;
+	float: left;
+	border-bottom: 1px solid #666;
+	border-left: 1px solid #666;
+	border-right: 1px solid #666;
+}
+
+/* Row 4 of Right Pane */
+#main-right .widgetrow4 {
+	height: 182px;
+	width: 370px;
+	
+	position: relative;
+	top: 40px;
+	float: left;
+	
+}
+
+#main-right .widgetrow4 .newdocsbar {
+	height: 18px;
+	width: 368px;
+	background-color:#0F0;
+	background-image: url(../images/widgetgradient.jpg);
+	border: 1px solid #333;
+}
+
+#main-right .widgetrow4 .newdocs {
+	height: 161px;
+	width: 368px;
+	float: left;
+	border-bottom: 1px solid #666;
+	border-left: 1px solid #666;
+	border-right: 1px solid #666;
+}
+
+/* Footer */
+
+#footer {
+	margin-top:10px;
+	height: 60px; 
+	width: auto;
+	background-image: url(../images/footergradient.jpg);
+}
+
+#footer .footermid {
+	height: 60px; 
+	width: 915px;
+	position: relative;
+	margin: 0 auto;
+	text-align:center;
+	text-decoration:none;
+	color: #3A3A3A;
+	font-size: 12px;
+}
+
+#footer .footermid p {
+
+	padding-top:15px;
+	
+}
