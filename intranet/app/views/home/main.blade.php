@@ -10,7 +10,7 @@
   				<h1>HBI Website Status:</h1>     
             </div>
             <div class="date">
-           		<h1>October 28, 2013</h1>
+           		<h1>November 5, 2013</h1>
             </div>
         </div>
         <div id="main">
